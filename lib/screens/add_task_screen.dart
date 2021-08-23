@@ -27,7 +27,7 @@ class _AddTaskScreenState extends State<AddTaskScreen> {
               topLeft: Radius.circular(20),
             )
         ),
-        // add tast text
+        // add task text
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children: [
@@ -39,7 +39,7 @@ class _AddTaskScreenState extends State<AddTaskScreen> {
                 color: Colors.lightBlueAccent,
               ),
             ),
-            // nre task text field
+            // new task text field
             TextField(
               // automatically show up the keyboard
               autofocus: true,
