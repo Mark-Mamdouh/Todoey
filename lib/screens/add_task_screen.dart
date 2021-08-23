@@ -27,6 +27,7 @@ class _AddTaskScreenState extends State<AddTaskScreen> {
               topLeft: Radius.circular(20),
             )
         ),
+        // add tast text
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children: [
@@ -38,6 +39,7 @@ class _AddTaskScreenState extends State<AddTaskScreen> {
                 color: Colors.lightBlueAccent,
               ),
             ),
+            // nre task text field
             TextField(
               // automatically show up the keyboard
               autofocus: true,
@@ -46,6 +48,7 @@ class _AddTaskScreenState extends State<AddTaskScreen> {
                 newTaskTitle = newValue;
               },
             ),
+            // add button
             FlatButton(
               child: Text(
                 "ADD",
