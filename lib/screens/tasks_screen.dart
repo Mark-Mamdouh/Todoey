@@ -42,6 +42,7 @@ class TasksScreen extends StatelessWidget {
                   backgroundColor: Colors.white,
                   radius: 30,
                 ),
+                // some vertical space
                 SizedBox(
                   height: 10,
                 ),
@@ -64,6 +65,7 @@ class TasksScreen extends StatelessWidget {
               ],
             ),
           ),
+          // tasks area
           Expanded(
             child: Container(
               padding: EdgeInsets.symmetric(horizontal: 20),
